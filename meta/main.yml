@@ -8,5 +8,18 @@ galaxy_info:
   min_ansible_version: 1.2
 
   galaxy_tags: [mandrill, api, webhook]
-
+  
+  platforms:
+    - name: Fedora
+      versions:
+        - all
+    - name: MacOSX
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
 dependencies: []
