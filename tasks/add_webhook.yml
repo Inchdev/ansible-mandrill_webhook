@@ -1,0 +1,10 @@
+---
+- uri:
+    url: "{{mandrill_request_url}}"
+    method: POST
+    body_format: json
+    body:
+      key: "{{mandrill_api_key}}"
+      url: "{{mandrill_webhook_url}}"
+      events: "{{mandrill_webhook_events}}"
+      description: "{{mandrill_webhook_description}}"

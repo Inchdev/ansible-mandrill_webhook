@@ -1,0 +1,6 @@
+---
+- include: add_webhook.yml
+  when: mandrill_webhook_operation == 'present'
+
+- include: remove_webhook.yml
+  when: mandrill_webhook_operation == 'absent'

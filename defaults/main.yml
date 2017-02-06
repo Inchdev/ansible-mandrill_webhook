@@ -1,0 +1,8 @@
+---
+mandrill_api_version: 1.0
+mandrill_api_webhook_url: https://mandrillapp.com/api/{{mandrill_api_version}}/webhooks
+mandrill_api_output_format: .json
+mandrill_webhook_operation: present
+mandrill_operation: add
+mandrill_request_url: "{{mandrill_api_webhook_url}}/{{mandrill_operation}}{{mandrill_api_output_format}}"
+mandrill_webhook_description: Generated via ansible

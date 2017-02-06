@@ -1,0 +1,10 @@
+---
+- uri:
+    url: "{{mandrill_request_url}}"
+    method: POST
+    body:
+      key: "{{mandrill_api_key}}"
+      id: "{{mandrill_webhook_id}}"
+    body_format: json
+  vars:
+    mandrill_operation: delete

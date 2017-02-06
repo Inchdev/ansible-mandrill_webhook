@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Thomas Thimothée
+  description: Developer
+  company: Inch
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+
+  galaxy_tags: [mandrill, api, webhook]
+
+dependencies: []
